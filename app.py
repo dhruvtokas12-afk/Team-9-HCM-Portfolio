@@ -307,7 +307,7 @@ elif page == "06 · Evidence & assumptions":
     ], columns=["Assumption","Status","Effect"])
     st.dataframe(assumptions, use_container_width=True, hide_index=True)
 
-    st.markdown('<div class="warning"><b>Important:</b> assumptions are not case facts. Before final submission, replace any placeholder assumption with the team's verified case wording or clearly retain it as an assumption.</div>', unsafe_allow_html=True)
+    st.markdown("<div class='warning'><b>Important:</b> assumptions are not case facts. Before final submission, replace any placeholder assumption with the team's verified case wording or clearly retain it as an assumption.</div>", unsafe_allow_html=True)
 
 # ---------- Page 7 ----------
 elif page == "07 · Revision log":
